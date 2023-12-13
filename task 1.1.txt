@@ -1,0 +1,114 @@
+
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ pwd
+/c/Users/Alla
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ mkdir test1
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ cd test1
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~/test1
+$ touch 1.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~/test1
+$ touch 2.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~/test1
+$ touch 3.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~/test1
+$ ls -Ra
+.:
+./  ../  1.txt  2.txt  3.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~/test1
+$ cd
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ mkdir test2
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ rmdir test2
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ rm test1/2.txt 
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ ls test1/
+1.txt  3.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ mkdir test3
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ touch test3/file1.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ touch test3/file2.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ rm -rd test3
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ mkdir test4
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ mv test1/1.txt test4/1.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ mv test1/3.txt test4/3.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ ls test1
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ ls test4
+1.txt  3.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ echo line >> test4/1.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ echo line >> test4/1.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ echo line >> test4/1.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ cat test4/1.txt
+line
+line
+line
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ echo line >> test4/3.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ echo line >> test4/3.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ echo line >> test4/3.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ cat test4/1.txt test4/3.txt
+line
+line
+line
+line
+line
+line
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ nano test4/1.txt
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$ cat test4/1.txt
+one
+two
+three
+
+Alla@DESKTOP-OJ8I2OE MINGW64 ~
+$
